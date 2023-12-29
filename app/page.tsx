@@ -9,7 +9,7 @@ export default function Home() {
     {blogData.map((blog)=>{
       if(blog.id ==1){
       return( 
-      <div className="flex h-screen bg-white rounded overflow-hidden shadow-lg">
+      <div key={blog.id} className="flex h-screen bg-white rounded overflow-hidden shadow-lg">
       <a
         href="post.html"
         className="flex flex-wrap no-underline hover:no-underline"
@@ -54,7 +54,7 @@ export default function Home() {
         if(blog2.id !==1 && blog2.id !==8){
           return(
             
-            <div className="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
+            <div key={blog2.id} className="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
             <div className="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow-lg">
               <a
                 href="#"
@@ -96,7 +96,7 @@ export default function Home() {
       {blogData.map((blog3)=>{
         if(blog3.id ==3 || blog3.id ==8){
         return(
-        <div className="w-full md:w-1/2 p-6 flex flex-col flex-grow flex-shrink">
+        <div key={blog3.id} className="w-full md:w-1/2 p-6 flex flex-col flex-grow flex-shrink">
         <div className="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow-lg">
           <a
             href="#"
