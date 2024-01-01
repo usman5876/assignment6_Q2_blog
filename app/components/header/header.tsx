@@ -8,7 +8,7 @@ export default function Header(){
                 >
                     <div className="container max-w-4xl mx-auto pt-8  text-center break-normal">
                     {/*Title*/}
-                    <p className="text-slate-800 font-extrabold text-3xl md:text-5xl">
+                    <p className="text-slate-800 font-extrabold text-1xl md:text-3xl">
                         👻 Usman Developer
                     </p>
                     <p className="text-xl md:text-2xl text-gray-500">Welcome to my Blog</p>
@@ -25,9 +25,9 @@ export default function Header(){
                             <li className="mr-2">
                                 <a
                                 className="inline-block py-2 px-2 text-white no-underline hover:underline"
-                                href="post.html"
+                                href={`/expenseTracker`}
                                 >
-                                POST
+                                Expense Tracker App
                                 </a>
                             </li>
                             <li className="mr-2">
