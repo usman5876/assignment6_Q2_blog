@@ -5,12 +5,12 @@ import Subscribe from './components/subscribe/subscribe'
 export default function Home() {
   return (
     <>
-  <div className="bg-black w-full text-xl md:text-2xl text-gray-800 leading-normal rounded-t">
+  <div className=" w-screen px-28 text-xl md:text-2xl ">
     {/*Lead Card*/}
     {blogData.map((blog)=>{
       if(blog.id ==1){
       return( 
-      <div key={blog.id} className="flex h-screen bg-white rounded overflow-hidden shadow-lg">
+      <div key={blog.id} className="flex -mt-20  h-screen bg-white rounded z-10 shadow-lg">
       <a
         href={`/${blog.id}`}
         className="flex flex-wrap no-underline hover:no-underline"
