@@ -2,7 +2,7 @@ export default function Header(){
     return(
         <>
                 {/*Header*/}
-            <div className="w-full py-2 px-1  h-72 flex flex-col justify-between bg-gradient-to-r from-yellow-400 to-blue-500 border-b-2 border-gray-950" >
+            <div className="w-full py-2 px-1  h-72 flex flex-col justify-between bg-cover  bg-[url('https://images.unsplash.com/photo-1497864149936-d3163f0c0f4b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjZ8fHBvcnRmb2xpb3xlbnwwfHwwfHx8MA%3D%3D')]" >
                 <div className=" w-1/3 mx-auto mt-12  text-center ">
                 {/*Title*/}
                     <p className="text-slate-800 font-extrabold text-1xl md:text-3xl">

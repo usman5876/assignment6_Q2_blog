@@ -134,6 +134,19 @@ export default function Home() {
       })}
     
     </div>
+    <div className='grid grid-cols-3 text-white  gap-2  w-full min-h-screen'>
+      
+        <p className='flex items-end p-2 rounded-2xl text-teal-100 col-span-2  bg-cover bg-center  bg-[url("https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg?auto=compress&cs=tinysrgb&w=600")]'>Virtuality</p>
+        <p className='flex items-end p-2 rounded-2xl row-span-2  bg-[url("https://images.pexels.com/photos/1172064/pexels-photo-1172064.jpeg?auto=compress&cs=tinysrgb&w=600")]'>Resume</p>
+     
+        <p className='flex items-end p-2 rounded-2xl  row-span-2 bg-cover bg-center opacity-80 bg-[url("https://images.pexels.com/photos/1658967/pexels-photo-1658967.jpeg?auto=compress&cs=tinysrgb&w=600")]'>Virtuality</p>
+        <p className='flex items-end p-2 rounded-2xl  bg-[url("https://images.pexels.com/photos/460775/pexels-photo-460775.jpeg?auto=compress&cs=tinysrgb&w=600")]'>Resume</p>
+      
+        <p className='flex items-end p-2 rounded-2xl col-span-2 bg-cover bg-center opacity-80 bg-[url("https://images.pexels.com/photos/36717/amazing-animal-beautiful-beautifull.jpg?auto=compress&cs=tinysrgb&w=600")]'>Virtuality</p>
+        
+      
+      
+    </div>
   </div>
 
 
